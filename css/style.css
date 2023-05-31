@@ -105,11 +105,65 @@ main, footer {
 .card {
     width: calc(100% / 3 - 30px);
     height: 400px;
+    position: relative;
 }
 
 .card-text {
     width: calc(100% / 3 - 30px);
     height: 50px;
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+i.fa-solid.fa-heart:hover {
+    color: red;
+}
+
+.link-heart{
+    color: black;
+}
+
+.sale {
+    width: 50px;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.target {
+    width: 100px;
+    padding: 3px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 55px;
+}
+
+.target-{ /*cambiare selettore*/
+    width: 100px;
+    padding: 3px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
 }
 
 .man-one {
@@ -148,6 +202,44 @@ main, footer {
 
 .woman-four {
     background-image: url(../imgs/img/6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.man-one:hover {
+    background-image: url(../imgs/img/1b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.woman-one:hover {
+    background-image: url(../imgs/img/2b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.woman-two:hover {
+    background-image: url(../imgs/img/3b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.man-two:hover {
+    background-image: url(../imgs/img/4b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 45px;
+}
+
+.woman-three:hover {
+    background-image: url(../imgs/img/5b.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 45px;
+}
+
+.woman-four:hover {
+    background-image: url(../imgs/img/6b.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
