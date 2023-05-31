@@ -2,4 +2,229 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #ff6900;
+}
+
+.nav-bar{
+    max-width: 980px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.gender {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+}
+
+.gender ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.woman, .man, .child {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+.man, .child, .normative {
+    margin: 0 5px;
+}
+
+.logo {
+    height: 50px;
+    width: calc(100% - 400px);
+    position: absolute;
+    top: 0;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav-icon {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: end;
+    padding-top: 15px;
+}
+
+.img-logo {
+    align-items: center;
+}
+
+.user-icon, .heart-icon, .bag-icon {
+    margin: 0 3px;
+}
+
+main, footer {
+    margin-top: 50px;
+}
+
+.first-plane, .second-plane {
+    margin: auto;
+    max-width: 980px;
+    width: 100%;
+    height: 500px;
+}
+
+.first-plane-img, .second-plane-img {
+    margin: auto;
+    max-width: 980px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.first-plane-text, .second-plane-text {
+    margin: auto;
+    max-width: 980px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.card {
+    width: calc(100% / 3 - 30px);
+    height: 400px;
+}
+
+.card-text {
+    width: calc(100% / 3 - 30px);
+    height: 50px;
+}
+
+.man-one {
+    background-image: url(../imgs/img/1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 45px;
+}
+
+.woman-one {
+    background-image: url(../imgs/img/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 45px;
+}
+
+.woman-two {
+    background-image: url(../imgs/img/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.man-two {
+    background-image: url(../imgs/img/4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 45px;
+}
+
+.woman-three {
+    background-image: url(../imgs/img/5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 45px;
+}
+
+.woman-four {
+    background-image: url(../imgs/img/6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-one, .article-two, .article-four, .article-five {
+    margin-right: 45px;
+}
+
+.text-red {
+    color: red;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.brand, .text-red, .line-through, .article-name {
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1a1a1a;
+}
+
+.footer {
+    margin: auto;
+    max-width: 980px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.footer-left, .footer-right {
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0;
+}
+
+.footer-right-top, .footer-right-bottom, .footer-left-top, .footer-left-bottom {
+    width: 200px;
+    height: 50px;
+}
+
+.footer-left-top, .footer-right-top {
+    padding-top: 20px;
+}
+
+.footer-right-bottom {
+    font-size: 30px;
+}
+
+.footer-left-bottom {
+    width: 490px;
+}
+
+.footer-title, .text-footer {
+    color: white;
+}
+
+.footer-right-bottom ul {
+    list-style: none;
+}
+
+.footer-left-bottom ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-left-bottom ul a {
+    text-decoration: none;
+    color: white;
 }
